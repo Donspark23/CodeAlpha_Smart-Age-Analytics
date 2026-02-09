@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Age Analytics</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+<button id="themeToggle">🌓 </button>
+
+<div class="card">
+
+    <h1>🎂 Smart Age Analytics</h1>
+
+    <div class="input-box">
+        <input type="date" id="dob">
+        <button onclick="calculateAge()">Calculate Age</button>
+    </div>
+
+    <div id="output" class="hidden">
+        <h2>Your Age</h2>
+        <p id="age"></p>
+
+        <h3>📅 Next Birthday</h3>
+        <p id="birthday"></p>
+
+        <h3>⏳ Total Time Lived</h3>
+        <p id="days"></p>
+
+        <h3>⭐ Zodiac Sign</h3>
+        <p id="zodiac"></p>
+
+        <h3>📊 Life Progress</h3>
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <p id="lifePercent"></p>
+
+        <h2 id="birthdayMessage"></h2>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -22,7 +22,7 @@ This project strengthened my skills in:
 - Writing clean, maintainable code  
 
 ## 🔴 Live Demo
-👉 (Paste your GitHub Pages link here)
+👉 https://donspark23.github.io/CodeAlpha_Smart-Age-Analytics/
 
 ## 🛠️ Tech Stack
 HTML | CSS | JavaScript
